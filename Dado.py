@@ -18,7 +18,7 @@ def LoadTextures():
     global texture
     texture = glGenTextures(2)
 
-    reader = png.Reader(filename='dado.png')
+    reader = png.Reader(filename = 'C:/Users/nickv/Desktop/cGrafica/computacaoGrafica/dado.png')
     w, h, pixels, metadata = reader.read_flat()
     if(metadata['alpha']):
         modo = GL_RGBA

@@ -42,7 +42,7 @@ def f(i,j):
 def load_textures():
     global texture
     texture = GL.glGenTextures(2)
-    reader = png.Reader(filename='mapa.png')
+    reader = png.Reader(filename='C:/Users/nickv/Desktop/cGrafica/computacaoGrafica/mapa.png')
     w, h, pixels, metadata = reader.read_flat()
 
     if(metadata['alpha']):
